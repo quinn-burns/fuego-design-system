@@ -23,6 +23,13 @@ const config = {
         "dark-gray": "var(--color-dark-gray)",
         "light-gray": "var(--color-light-gray)",
         orange: "var(--color-orange)",
+        "orange-300": "var(--color-orange-300)",
+        "orange-200": "var(--color-orange-200)",
+        "orange-50": "var(--color-orange-50)",
+        "ink-12": "var(--color-ink-12)",
+        "ink-26": "var(--color-ink-26)",
+        "paper-12": "var(--color-paper-12)",
+        "paper-26": "var(--color-paper-26)",
       },
       fontFamily: {
         pacaembu: "var(--font-pacaembu)",

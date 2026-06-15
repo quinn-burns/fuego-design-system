@@ -5,12 +5,14 @@ import { navItems } from "@/lib/nav";
 export function Footer() {
   return (
     <footer className="border-t border-dark-beige">
-      {/* Oversized wordmark spanning the full width. Rendered as type (the
-          wordmark treatment) since no logo asset is shipped yet. */}
+      {/* Oversized wordmark spanning the full width. */}
       <div className="px-5 pb-10 pt-16 md:px-10 md:pt-24">
-        <p className="type-h1 leading-none text-dark-gray">
-          fuego<span className="text-orange"> ux</span>
-        </p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/logos/wordmark-dark.svg"
+          alt="Fuego UX"
+          className="w-full"
+        />
       </div>
 
       {/* Standard link footer */}

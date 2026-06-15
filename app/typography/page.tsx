@@ -1,5 +1,4 @@
 import { SubpageHeader } from "@/components/SubpageHeader";
-import { Em } from "@/components/Em";
 
 // Placeholder specimen rows — each demonstrates a generated type class.
 const pacaembuRows = [
@@ -15,9 +14,9 @@ const pacaembuRows = [
 ];
 
 const redactionRows = [
-  { cls: "type-r-h1", name: "Display H1", sample: "easy. hard." },
-  { cls: "type-r-h2", name: "Display H2", sample: "infinite" },
-  { cls: "type-r-label1", name: "Label1", sample: "accent words" },
+  { cls: "type-r-h1", name: "Display H1", sample: "Fuego UX" },
+  { cls: "type-r-h2", name: "Display H2", sample: "Fuego UX" },
+  { cls: "type-r-label1", name: "Label1", sample: "Fuego UX" },
 ];
 
 export default function TypographyPage() {
@@ -26,11 +25,7 @@ export default function TypographyPage() {
       <SubpageHeader
         index="02"
         label="Typography"
-        title={
-          <>
-            Pacaembu does the work. Redaction makes it <Em>sing.</Em>
-          </>
-        }
+        title="Pacaembu & Redaction 10"
         description="Two faces across a four-breakpoint scale. Pacaembu is the workhorse; Redaction 10 italic swaps in for accent words. Placeholder specimens — real metrics and copy land later."
       />
 

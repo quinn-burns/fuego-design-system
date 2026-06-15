@@ -21,7 +21,7 @@ export function Nav() {
     }`;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-dark-beige bg-beige/95 backdrop-blur supports-[backdrop-filter]:bg-beige/80">
+    <header className="sticky top-0 z-50 border-b border-dark-beige bg-beige">
       <nav
         aria-label="Primary"
         className="mx-auto flex max-w-[1600px] items-center justify-between px-5 py-4 md:px-10"

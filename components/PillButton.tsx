@@ -11,11 +11,12 @@ const base =
   "type-button1 inline-flex items-center justify-center rounded-full px-7 py-3 transition-colors duration-150";
 
 const variants: Record<NonNullable<PillButtonProps["variant"]>, string> = {
-  // Orange pill, Dark Gray text — the primary CTA.
-  solid: "bg-orange text-dark-gray hover:bg-dark-gray hover:text-orange",
-  // Hairline outline that fills orange on hover.
+  // Orange pill, Dark Gray text — the primary CTA. Hover lightens to Orange 300,
+  // pressed to Orange 200 (matches the button spec).
+  solid: "bg-orange text-dark-gray hover:bg-orange-300 active:bg-orange-200",
+  // Secondary: orange hairline outline, fills Orange 50 on hover, 200 pressed.
   outline:
-    "border border-dark-gray text-dark-gray hover:bg-orange hover:border-orange",
+    "border border-orange text-dark-gray hover:bg-orange-50 active:bg-orange-200",
 };
 
 export function PillButton({

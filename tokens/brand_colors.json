@@ -28,5 +28,40 @@
     "value": "#3d3d3d",
     "type": "color",
     "prefix": "brand_colors"
+  },
+  "Orange 300": {
+    "value": "#ffa040",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Orange 200": {
+    "value": "#ffb96b",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Orange 50": {
+    "value": "#fff3e5",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Ink 12": {
+    "value": "#2727271f",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Ink 26": {
+    "value": "#27272742",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Paper 12": {
+    "value": "#f3eee81f",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Paper 26": {
+    "value": "#f3eee842",
+    "type": "color",
+    "prefix": "brand_colors"
   }
 }
