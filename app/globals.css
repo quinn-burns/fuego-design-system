@@ -1,0 +1,65 @@
+/* Token-driven variables + type classes (generated from tokens/).
+   Must precede the @tailwind directives — CSS requires @import first. */
+@import "./generated/theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-beige);
+    color: var(--color-dark-gray);
+    font-family: var(--font-pacaembu);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* Visible keyboard focus: orange outline everywhere (quality floor). */
+  :focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 2px;
+    border-radius: 1px;
+  }
+
+  /* Respect reduced-motion for any animation/transition added later. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Inline accent: swaps a word inside a Pacaembu headline to Redaction italic. */
+  .em-accent {
+    font-family: var(--font-redaction10);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  /* Hairline-bordered grid: cells share 1px Dark Beige borders edge-to-edge.
+     Collapse double borders with negative margins on the grid wrapper. */
+  .hairline-grid {
+    border-top: 1px solid var(--color-dark-beige);
+    border-left: 1px solid var(--color-dark-beige);
+  }
+  .hairline-cell {
+    border-right: 1px solid var(--color-dark-beige);
+    border-bottom: 1px solid var(--color-dark-beige);
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Beige": {
+    "value": "#f3eee8",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Dark Beige": {
+    "value": "#e1dcd6",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Dark Gray": {
+    "value": "#272727",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Orange": {
+    "value": "#ff8f1f",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "White": {
+    "value": "#ffffff",
+    "type": "color",
+    "prefix": "brand_colors"
+  },
+  "Light Gray": {
+    "value": "#3d3d3d",
+    "type": "color",
+    "prefix": "brand_colors"
+  }
+}

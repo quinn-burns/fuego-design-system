@@ -1,0 +1,466 @@
+{
+  "desktop": {
+    "Pacaembu": {
+      "H1": {
+        "value": 70,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 64,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H3": {
+        "value": 40,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H4": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H5": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H6": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H7": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body1": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body2": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body3": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body4": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label4": {
+        "value": 12,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Button1": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Link1": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      }
+    },
+    "Redaction10": {
+      "H1": {
+        "value": 75,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 68,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 40,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 32,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      }
+    }
+  },
+  "mobile": {
+    "Pacaembu": {
+      "H1": {
+        "value": 36,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 32,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H3": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H4": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H5": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H6": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H7": {
+        "value": 13,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body1": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body2": {
+        "value": 16,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body3": {
+        "value": 16,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body4": {
+        "value": 13,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 16,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 13,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 13,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label4": {
+        "value": 12,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Button1": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Link1": {
+        "value": 14,
+        "type": "number",
+        "prefix": "typography"
+      }
+    },
+    "Redaction10": {
+      "H1": {
+        "value": 40,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 36,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 20,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 16,
+        "type": "number",
+        "prefix": "typography"
+      }
+    }
+  },
+  "large": {
+    "Pacaembu": {
+      "H1": {
+        "value": 84,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 77,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H3": {
+        "value": 48,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H4": {
+        "value": 29,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H5": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H6": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H7": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body1": {
+        "value": 29,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body2": {
+        "value": 29,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body3": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body4": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 29,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 17,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label4": {
+        "value": 15,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Button1": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Link1": {
+        "value": 18,
+        "type": "number",
+        "prefix": "typography"
+      }
+    },
+    "Redaction10": {
+      "H1": {
+        "value": 94,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 85,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 50,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 40,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 25,
+        "type": "number",
+        "prefix": "typography"
+      }
+    }
+  },
+  "extra_large": {
+    "Pacaembu": {
+      "H1": {
+        "value": 120,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 110,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H3": {
+        "value": 68,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H4": {
+        "value": 41,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H5": {
+        "value": 34,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H6": {
+        "value": 34,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H7": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body1": {
+        "value": 41,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body2": {
+        "value": 41,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body3": {
+        "value": 34,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Body4": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 41,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 24,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label4": {
+        "value": 22,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Button1": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Link1": {
+        "value": 28,
+        "type": "number",
+        "prefix": "typography"
+      }
+    },
+    "Redaction10": {
+      "H1": {
+        "value": 150,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "H2": {
+        "value": 136,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label1": {
+        "value": 80,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label2": {
+        "value": 64,
+        "type": "number",
+        "prefix": "typography"
+      },
+      "Label3": {
+        "value": 40,
+        "type": "number",
+        "prefix": "typography"
+      }
+    }
+  }
+}
