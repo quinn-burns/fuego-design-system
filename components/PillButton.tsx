@@ -5,10 +5,16 @@ type PillButtonProps = {
   children: ReactNode;
   href?: string;
   variant?: "solid" | "outline";
+  size?: "md" | "sm";
 };
 
 const base =
-  "type-button1 inline-flex items-center justify-center rounded-full px-7 py-3 transition-colors duration-150";
+  "inline-flex items-center justify-center rounded-full transition-colors duration-150";
+
+const sizes: Record<NonNullable<PillButtonProps["size"]>, string> = {
+  md: "type-button1 px-7 py-3",
+  sm: "type-label4 px-4 py-2",
+};
 
 const variants: Record<NonNullable<PillButtonProps["variant"]>, string> = {
   // Orange pill, Dark Gray text — the primary CTA. Hover lightens to Orange 300,
@@ -23,8 +29,9 @@ export function PillButton({
   children,
   href,
   variant = "solid",
+  size = "md",
 }: PillButtonProps) {
-  const className = `${base} ${variants[variant]}`;
+  const className = `${base} ${sizes[size]} ${variants[variant]}`;
   if (href) {
     // External links (e.g. the marketing site) open in a new tab.
     const isExternal = /^https?:\/\//.test(href);

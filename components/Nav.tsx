@@ -16,7 +16,7 @@ export function Nav() {
     pathname === href || pathname.startsWith(`${href}/`);
 
   const linkClass = (href: string) =>
-    `type-label2 transition-colors duration-150 hover:text-orange ${
+    `type-label4 transition-colors duration-150 hover:text-orange ${
       isActive(href) ? "text-orange" : "text-dark-gray"
     }`;
 
@@ -45,7 +45,9 @@ export function Nav() {
               </li>
             ))}
           </ul>
-          <PillButton href="https://fuegoux.com">fuegoux.com</PillButton>
+          <PillButton href="https://fuegoux.com" size="sm">
+            fuegoux.com
+          </PillButton>
         </div>
 
         {/* Mobile hamburger */}
@@ -105,7 +107,9 @@ export function Nav() {
               ))}
             </ul>
             <div className="px-5 py-5">
-              <PillButton href="https://fuegoux.com">fuegoux.com</PillButton>
+              <PillButton href="https://fuegoux.com" size="sm">
+            fuegoux.com
+          </PillButton>
             </div>
           </div>
         </>

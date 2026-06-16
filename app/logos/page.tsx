@@ -9,14 +9,11 @@ type LogoSlot = {
 };
 
 const logoSlots: LogoSlot[] = [
-  // Real wordmark assets (the dark wordmark is the primary logo).
+  // The dark wordmark is the primary logo.
   { caption: "Wordmark · primary (dark)", src: "/logos/wordmark-dark.svg", bg: "bg-white" },
   { caption: "Wordmark · orange", src: "/logos/wordmark-orange.svg", bg: "bg-beige" },
   { caption: "Wordmark · reversed (white)", src: "/logos/wordmark-white.svg", bg: "bg-dark-gray" },
-  // Awaiting assets — gray placeholders for now.
-  { caption: "Mark · standalone" },
-  { caption: "Lockup · horizontal" },
-  { caption: "Lockup · stacked" },
+  { caption: "Mark", src: "/logos/mark.png", bg: "bg-white" },
 ];
 
 export default function LogosPage() {
@@ -30,7 +27,7 @@ export default function LogosPage() {
             The wordmark, <Em>everywhere</Em> it needs to live.
           </>
         }
-        description="The primary Fuego UX wordmark in its color treatments, plus lockups still to come. Gray boxes mark assets that haven't shipped yet."
+        description="The primary Fuego UX wordmark in its color treatments, plus the standalone mark."
       />
 
       <section className="px-5 py-12 md:px-10 md:py-20">

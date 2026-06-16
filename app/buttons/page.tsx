@@ -100,7 +100,7 @@ function Matrix({ surface }: { surface: "light" | "dark" }) {
   const mutedColor = surface === "dark" ? "text-paper-26" : "text-light-gray";
   return (
     <div className="overflow-x-auto">
-      <div className="grid min-w-[640px] grid-cols-[120px_repeat(4,1fr)] gap-y-8">
+      <div className="grid min-w-[760px] grid-cols-[160px_repeat(4,1fr)] gap-x-8 gap-y-10">
         {/* header row: state names */}
         <div />
         {STATES.map((state) => (
@@ -112,7 +112,9 @@ function Matrix({ surface }: { surface: "light" | "dark" }) {
         {/* one row per variant */}
         {VARIANTS.map((variant) => (
           <div key={variant.key} className="contents">
-            <div className={`type-label3 self-center ${labelColor}`}>
+            <div
+              className={`type-label3 self-center whitespace-nowrap pr-2 ${labelColor}`}
+            >
               {variant.label}
             </div>
             {STATES.map((state) => (
